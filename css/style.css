@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+body{
+    background-color: #000000;
+    overflow-y: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding: 0 65px;
+    font-size: 30px;
+    width: 100px;
+}
+nav ul li a{
+    color: rgb(182, 31, 31);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(121, 31, 31);
+}
+section{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+}
+.secao_texto{
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+.secao_texto h1{
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: -100px;
+    color: #fd0707e3;
+    border: #dbd6d6;
+}
+.secao_texto p{
+    font-size: 20px;
+    margin: 30px 0;
+    font-weight: 400;
+    text-align: left;
+    flex: 1;
+}
+.secao_texto div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 30px; 
+    padding: 40px;
+}
+
+
+.secao_texto div button {
+    font-size: 100px;
+    color: white;
+    height: 70px;
+    width: 500px;
+    
+}
+
+.secao_texto div button i {
+    font-size: 98px;
+    margin-right: 10px;
+}
+
+
+.secao_texto div button:last-child {
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+
+.secao_img{
+    position: absolute;
+    right: -300px;
+    bottom: 180px;
+}
+.secao_img img{
+    width: 970px;
+    height: 700px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.imgvenda img{
+    height: 800px;
+}
+.imgitem{
+    position: absolute;
+    right: -300px;
+    bottom: 120px;
+}
+.imgitem img{
+    width: 970px;
+    height: 750px;
+}
